@@ -16,7 +16,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "npx chromatic --project-token=chpt_815e158efad9c48",
+    "chromatic": "npx chromatic --project-token=chpt_41fc2350cb795a8",
     "commit": "cz",
     "prepare": "husky",
     "format": "prettier --write .",

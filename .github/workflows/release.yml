@@ -36,5 +36,5 @@ jobs:
       - name: Publish to NPM
         if: github.ref == 'refs/heads/main'
         evn:
-            NODE_AUTH_TOKEN:${{secrets.NPM_TOkEN}}
+            NODE_AUTH_TOKEN:${{secrets.NPM_TOKEN}}
         run: npm publish
