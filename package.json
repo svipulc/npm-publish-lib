@@ -1,5 +1,5 @@
 {
-  "name": "evoke-ui",
+  "name": "@svipulc/evoke-ui-test",
   "private": true,
   "version": "1.0.0",
   "type": "module",
