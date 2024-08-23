@@ -33,10 +33,10 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - name: Verify NPM Authentication
+      - name: Debug NPM Token
         run: |
-          echo "Attempting to authenticate with npm..."
-          npm whoami
+          echo "NPM Token length: ${#NODE_AUTH_TOKEN}"
+          echo "First 4 characters of NPM Token: ${NODE_AUTH_TOKEN:0:4}"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
@@ -47,7 +47,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release
+        run: |
+          echo "//registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN" > .npmrc
+          npm whoami 
+          npx semantic-release
 
       - name: Publish to NPM
         if: github.ref == 'refs/heads/main'
