@@ -1,11 +1,14 @@
+# [1.3.0](https://github.com/svipulc/npm-publish-lib/compare/v1.2.0...v1.3.0) (2024-08-23)
+
+### Features
+
+- remove publish yml ([caaeed3](https://github.com/svipulc/npm-publish-lib/commit/caaeed365312ad856e6eb5efb47bc6379af3477a))
 
 # [1.2.0](https://github.com/svipulc/npm-publish-lib/compare/v1.1.0...v1.2.0) (2024-08-23)
-
 
 ### Bug Fixes
 
 - add publish yml ([27bda24](https://github.com/svipulc/npm-publish-lib/commit/27bda2416cadea97b125e3ddcae1f148860cae05))
-
 
 ### Features
 
