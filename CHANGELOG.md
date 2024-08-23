@@ -1,3 +1,9 @@
+# [1.1.0](https://github.com/svipulc/npm-publish-lib/compare/v1.0.1...v1.1.0) (2024-08-23)
+
+### Features
+
+- test feature commit ([721f91e](https://github.com/svipulc/npm-publish-lib/commit/721f91ed339884f0c6d9bf6f11b41089ea608de6))
+
 ## [1.0.1](https://github.com/svipulc/npm-publish-lib/compare/v1.0.0...v1.0.1) (2024-08-23)
 
 ### Bug Fixes
